@@ -217,13 +217,13 @@ while running:
 
     move_player()  # have to move before drawing or else collision looks weird
     move_enemies()
-    adjust_torch()
+    # adjust_torch()
 
     draw_player()
     draw_enemies()
     draw_collectibles()
-    draw_fog()
-    draw_battery()
+    # draw_fog()
+    # draw_battery()
 
     pygame.display.flip()  # display your drawing to the screen
     dt = clock.tick(FRAMES_PER_SECOND) / 1000  # limits FPS to 60
